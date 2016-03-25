@@ -1,6 +1,4 @@
-// Write your package code here!
-window.addEventListener("resize", _.debounce(function() {
-  
+window.addEventListener("resize", _.debounce(function () {
   var activeElement = document.activeElement;
 
   if (activeElement instanceof HTMLInputElement) {
